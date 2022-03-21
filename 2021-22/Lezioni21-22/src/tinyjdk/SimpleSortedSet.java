@@ -2,7 +2,7 @@ package tinyjdk;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Collections; //Utility Class
 
 
 public class SimpleSortedSet<T extends Comparable<? super T>> implements SortedSet<T> {
@@ -10,9 +10,9 @@ public class SimpleSortedSet<T extends Comparable<? super T>> implements SortedS
 
     @Override
     public void add(T e) {
-        if (!contains(e)) {
+        if (!contains(e)) { //The element is added only if it doesn't already belong to the Set
             l.add(e);
-            Collections.sort(l);
+            Collections.sort(l); //The Set is sorted after each addition.
         }
     }
 

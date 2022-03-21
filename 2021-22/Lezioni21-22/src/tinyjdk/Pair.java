@@ -21,4 +21,8 @@ public class Pair<A, B> {
 
 }
 
+/*
+* Just a representation of the mathematical couple.
+* */
+
 
