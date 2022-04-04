@@ -1,4 +1,6 @@
-package tinyjdk;
+package tinyjdk.Interfaces;
+
+import tinyjdk.NotFoundException;
 
 public interface Collection<X> extends Iterable<X> {
     void add(X e);

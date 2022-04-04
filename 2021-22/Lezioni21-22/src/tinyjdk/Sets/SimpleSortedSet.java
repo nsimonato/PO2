@@ -1,4 +1,8 @@
-package tinyjdk;
+package tinyjdk.Sets;
+
+import tinyjdk.Interfaces.Iterator;
+import tinyjdk.Interfaces.SortedSet;
+import tinyjdk.NotFoundException;
 
 import java.util.List;
 import java.util.ArrayList;

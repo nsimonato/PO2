@@ -1,4 +1,6 @@
-package tinyjdk;
+package tinyjdk.Interfaces;
+
+import tinyjdk.NotFoundException;
 
 public interface List<X> extends Collection<X> {
     X get(int pos);

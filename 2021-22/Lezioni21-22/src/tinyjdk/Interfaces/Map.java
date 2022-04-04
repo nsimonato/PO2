@@ -1,4 +1,7 @@
-package tinyjdk;
+package tinyjdk.Interfaces;
+
+import tinyjdk.NotFoundException;
+import tinyjdk.Foundations.Pair;
 
 public interface Map<K,V> extends Iterable<Pair<K,V>> {
 

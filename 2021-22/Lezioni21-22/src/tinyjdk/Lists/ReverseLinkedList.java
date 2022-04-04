@@ -1,4 +1,4 @@
-package tinyjdk;
+package tinyjdk.Lists;
 
 public class ReverseLinkedList<T> extends LinkedList<T>{
     @Override

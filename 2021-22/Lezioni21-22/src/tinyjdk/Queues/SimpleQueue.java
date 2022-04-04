@@ -1,4 +1,9 @@
-package tinyjdk;
+package tinyjdk.Queues;
+
+import tinyjdk.Interfaces.List;
+import tinyjdk.Interfaces.Queue;
+import tinyjdk.Lists.ReverseLinkedList;
+import tinyjdk.NotFoundException;
 
 public class SimpleQueue<T> implements Queue<T> {
 
@@ -10,7 +15,7 @@ public class SimpleQueue<T> implements Queue<T> {
     }
 
     @Override
-    public T peek() throws NotFoundException{
+    public T peek() throws NotFoundException {
         return l.get(l.size());
     }
 

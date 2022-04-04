@@ -1,4 +1,6 @@
-package tinyjdk;
+package tinyjdk.Interfaces;
+
+import tinyjdk.NotFoundException;
 
 public interface Queue<E> {
     void add(E e);

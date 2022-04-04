@@ -1,4 +1,11 @@
-package tinyjdk;
+package tinyjdk.Maps;
+
+import tinyjdk.Interfaces.Iterator;
+import tinyjdk.Interfaces.List;
+import tinyjdk.Interfaces.Map;
+import tinyjdk.Lists.ArrayList;
+import tinyjdk.NotFoundException;
+import tinyjdk.Foundations.Pair;
 
 public class PairMap<K, V> implements Map<K, V> {
     private List<Pair<K, V>> l; //It is a good practice to keep the declaration of the field as a superclass, and to realize the binding with a subclass (subsumption)

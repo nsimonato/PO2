@@ -1,4 +1,9 @@
-package tinyjdk;
+package tinyjdk.Stacks;
+
+import tinyjdk.Interfaces.List;
+import tinyjdk.Interfaces.Stack;
+import tinyjdk.Lists.ReverseLinkedList;
+import tinyjdk.NotFoundException;
 
 public class SimpleStack<E> implements Stack<E> {
 

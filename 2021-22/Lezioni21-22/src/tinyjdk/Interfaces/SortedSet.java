@@ -1,4 +1,4 @@
-package tinyjdk;
+package tinyjdk.Interfaces;
 
 public interface SortedSet<T extends Comparable<? super T>> extends Collection<T> {
 

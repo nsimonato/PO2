@@ -1,4 +1,8 @@
-package tinyjdk;
+package tinyjdk.Lists;
+
+import tinyjdk.Interfaces.Iterator;
+import tinyjdk.Interfaces.List;
+import tinyjdk.NotFoundException;
 
 public class LinkedList<T> implements List<T> {
 

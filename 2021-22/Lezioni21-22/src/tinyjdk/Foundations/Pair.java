@@ -1,4 +1,4 @@
-package tinyjdk;
+package tinyjdk.Foundations;
 
 public class Pair<A, B> {
     private A a;

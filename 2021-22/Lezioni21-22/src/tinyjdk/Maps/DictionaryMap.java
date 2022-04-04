@@ -1,13 +1,18 @@
-package tinyjdk;
+package tinyjdk.Maps;
 
 
-import java.util.Collections;
+import tinyjdk.Interfaces.Iterator;
+import tinyjdk.Interfaces.List;
+import tinyjdk.Interfaces.Map;
+import tinyjdk.Lists.ArrayList;
+import tinyjdk.NotFoundException;
+import tinyjdk.Foundations.Pair;
 
 public class DictionaryMap<K extends Comparable<? super K>,V> implements Map<K,V> {
 
     List<Pair<K,V>> l = new ArrayList<>();
 
-    private int find(K key) throws NotFoundException{
+    private int find(K key) throws NotFoundException {
         return 0;
     }
 
