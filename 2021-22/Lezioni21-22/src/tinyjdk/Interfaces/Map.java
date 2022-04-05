@@ -15,10 +15,17 @@ public interface Map<K,V> extends Iterable<Pair<K,V>> {
 
     public boolean containsKey(K key) throws NotFoundException;
 
-    public boolean containsValue(V value);
+    default public boolean containsValue(V value) {
+        Iterator<Pair<K,V>> it = iterator();
+        V x = it.next().getSecond();
+        while(it.hasNext() && value != x){
+            x = it.next().getSecond();
+        }
+        return x.equals(value);
+    }
 
     public void remove(K key) throws NotFoundException;
 }
 /*
-* Map is a collection of unique instances of Pair<K,V>. The order of insertion is mantained
+* Map is a collection of unique instances of Pair<K,V>. The order of insertion is maintained
 * */
