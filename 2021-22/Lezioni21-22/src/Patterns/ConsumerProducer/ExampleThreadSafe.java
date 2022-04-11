@@ -10,9 +10,7 @@ public class ExampleThreadSafe {
 
     public static List<Integer> q = new ArrayList<>();
 
-    public static Random rand = new Random();
-
-    public static class ConcreteProducer<T extends Number> extends Thread implements Consumer<Integer>{
+    public static class ConcreteConsumer<T extends Number> extends Thread implements Consumer<Integer>{
 
         @Override
         public void run(){
@@ -42,7 +40,7 @@ public class ExampleThreadSafe {
         }
     }
 
-    public static class ConcreteConsumer<T extends Number> extends Thread implements Producer<Integer> {
+    public static class ConcreteProducer<T extends Number> extends Thread implements Producer<Integer> {
 
         @Override
         public void run(){
@@ -57,7 +55,7 @@ public class ExampleThreadSafe {
 
         @Override
         public Integer produce() {
-            return (Integer) rand.nextInt(100);
+            return (Integer) new Random(954L).nextInt(100);
         }
     }
 
