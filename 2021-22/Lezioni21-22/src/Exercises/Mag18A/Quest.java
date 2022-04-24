@@ -1,4 +1,4 @@
-package Exercises.Mag18;
+package Exercises.Mag18A;
 
 public class Quest {
     /*
