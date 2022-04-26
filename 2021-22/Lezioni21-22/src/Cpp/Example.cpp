@@ -14,7 +14,7 @@ public:
     } //Vengono inizializzati first e second, invocando direttamente i loro costruttori con un parametro solo.
 }
 
-template <typename A, typename B>
+template <typename A, typename B> //dichiarazione dei generics
 class pair
 {
 private:
