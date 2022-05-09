@@ -1,4 +1,4 @@
-package Exercises.Gen2020;
+package Exercises.Gen20;
 
 import java.util.*;
 import java.util.function.Function;

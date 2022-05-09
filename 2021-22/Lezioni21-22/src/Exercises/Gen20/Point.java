@@ -1,4 +1,4 @@
-package Exercises.Gen2020;
+package Exercises.Gen20;
 
 public class Point {
     public final double x,y,z;
