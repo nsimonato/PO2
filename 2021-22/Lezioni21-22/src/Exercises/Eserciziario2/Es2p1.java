@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Function;
 
-public class Es2 {
+public class Es2p1 {
     /*
     *   (a) Si implementi un tipo che rappresenta punti tridimensionali immutabili nello spazio, ovvero una classe Point
     *       con i campi pubblici x, y e z di tipo double e l’opportuno costruttore.
